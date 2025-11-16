@@ -9,9 +9,9 @@ enableH2C = true
 
 [rateLimit]
 # 每个IP每周期允许的请求数
-requestLimit = 5000
+requestLimit = 50000000
 # 限流周期（小时）
-periodHours = 1.0
+periodHours = 0.1
 
 [security]
 # IP白名单，支持单个IP或IP段
